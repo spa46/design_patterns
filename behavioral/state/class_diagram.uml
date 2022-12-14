@@ -1,0 +1,54 @@
+@startuml
+class Context {
+void request()
+State state
+}
+interface State {
+{abstract} handle()
+}
+together {
+class ConcreteStateA
+class ConcreteStateB
+}
+
+ConcreteStateA : handle()
+ConcreteStateB : handle()
+
+Context -> State
+State <|– ConcreteStateA
+State <|– ConcreteStateB
+
+note top of Context
+The Context is the class that
+can have a number of internal
+states. In out example, the
+GumballMachine is the context.
+end note
+
+note left of Context::request
+Whenever the request()
+is made on the Context
+it is delegated to the
+state to handle:
+
+“”state.handle()””
+
+end note
+
+note top of State
+The State interface defines a common
+interface for all concrete states; the
+states all implement the same interface,
+so they are interchangeable.
+end note
+
+note “ConcreteStates handle requests from the\nContext. Each ConcreteState provides its\nown implementation for a request. In this\nway, when the Context changes state, its\n behavior will change as well.” as n1
+
+ConcreteStateA .. n1
+ConcreteStateB .. n1
+
+note right of ConcreteStateB
+Many concrete states
+are possible.
+end note
+@enduml
