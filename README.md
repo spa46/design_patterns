@@ -15,7 +15,7 @@
 | Builder             | Bridge                                             | Command                 |
 | Factory Methods     | Composite                                          | Interpreter             |
 | Prototype           | Decorator                                          | Iterator                |
-| Singleton           | Facade                                             | Mediator                |
+| Singleton           | Facade (structural/facade/readme.md)               | Mediator                |
 |                     | Flyweight                                          | Memento                 |
 |                     | Proxy                                              | Observer                |
 |                     |                                                    | State                   |
