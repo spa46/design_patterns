@@ -1,0 +1,33 @@
+@startuml adapter
+
+class Client
+class Target <<interface>>
+class Adapter
+class Adaptee
+Target : request()
+Adapter : request()
+Adaptee : specificRequest()
+
+Client -> Target
+Target <|.. Adapter
+Adapter -> Adaptee
+note on link
+Adapter is composed
+with the Adapter.
+end note
+
+note bottom of Client
+The client sees only the
+Target interface
+end note
+
+note “The Adapter implements\nthe Target interface.” as n1
+Target .. n1
+n1 .. Adapter
+
+note bottom of Adaptee
+All requests get
+delegated to the
+Adaptee.
+end note
+@enduml
