@@ -1,0 +1,47 @@
+@startuml
+
+title Factory Method Pattern
+
+class Product
+class Creator
+class ConcreteProduct
+class ConcreteCreator
+
+Creator : factoryMethod()
+Creator : anOperation()
+ConcreteCreator : factoryMethod()
+
+Creator <|– ConcreteCreator
+Product <|– ConcreteProduct
+ConcreteProduct <- ConcreteCreator
+
+note top of Creator
+The Creator is a class that contains
+the implementation for all of the
+methods to manipulate products,
+except for the factory method.
+end note
+
+note right of Creator
+The abstract factoryMethod()
+is what all Creator subclasses
+must implement.
+end note
+
+note right of ConcreteCreator
+The ConcreteCreator
+implements the
+factoryMethod(), which is
+the method that actually
+produces products.
+end note
+
+note “The ConcreteCreator is responsible for\ncreating one or more concrete products. It\nis the only class that has the knowledge of\nhow to create these products.” as n1
+ConcreteProduct .. n1
+ConcreteCreator .. n1
+
+note “All products must implement\nthe same interface so that the\nclasses which use the products\ncan refer to the interface,\nnot the concrete class.” as n2
+n2 . ConcreteProduct
+n2 . Product
+
+@enduml
