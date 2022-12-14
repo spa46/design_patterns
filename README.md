@@ -10,16 +10,16 @@ GoF Design Patterns
 
 Following is **the list of Design Patterns**:
 
-| Createional Pattern | Structural Pattern | Behavioral Pattern      |
-| ------------------- | ------------------ | ----------------------- |
-| Abstract Factory    | Adapter            | Chain of Responsibility |
-| Builder             | Bridge             | Command                 |
-| Factory Methods     | Composite          | Interpreter             |
-| Prototype           | Decorator          | Iterator                |
-| Singleton           | Facade             | Mediator                |
-|                     | Flyweight          | Memento                 |
-|                     | Proxy              | Observer                |
-|                     |                    | State                   |
-|                     |                    | Strategy                |
-|                     |                    | Template Method         |
-|                     |                    | Visitor                 |
+| Createional Pattern | Structural Pattern                                 | Behavioral Pattern      |
+| ------------------- | -------------------------------------------------- | ----------------------- |
+| Abstract Factory    | [Adapter](structural/adapter/readme.md)            | Chain of Responsibility |
+| Builder             | Bridge                                             | Command                 |
+| Factory Methods     | Composite                                          | Interpreter             |
+| Prototype           | Decorator                                          | Iterator                |
+| Singleton           | Facade                                             | Mediator                |
+|                     | Flyweight                                          | Memento                 |
+|                     | Proxy                                              | Observer                |
+|                     |                                                    | State                   |
+|                     |                                                    | Strategy                |
+|                     |                                                    | Template Method         |
+|                     |                                                    | Visitor                 |
