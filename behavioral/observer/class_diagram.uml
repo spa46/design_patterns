@@ -1,0 +1,70 @@
+@startuml
+
+title Observer Pattern
+
+class Subject <<interface>>
+class Observer <<interface>>
+class ConcreteSubject
+class ConcreteObserver
+
+Subject : registerObserver(Observer)
+Subject : removeObserver(Observer)
+Subject : notifyObservers()
+
+Observer : update()
+ConcreteObserver : update()
+ConcreteObserver : // otherObserverMethods()
+
+ConcreteSubject : registerObserver(Observer) {…}
+ConcreteSubject : removeObserver(Observer) {…}
+ConcreteSubject : notifyObservers() {…}
+
+Subject “1” -right-> “*” Observer : “observers”
+
+ConcreteSubject <-left- ConcreteObserver : “subject”
+Subject <|– ConcreteSubject
+Observer <|– ConcreteObserver
+
+note left of Subject
+The Subject Interface
+Objects use this interface to register
+as observers and also to remove
+themselves from being observers.
+end note
+
+note left of ConcreteSubject
+A concrete subject always
+implements the Subject
+interface. In addition to
+the register and remove
+methods, the concrete subject
+implements a notifyObservers()
+method that is used to update
+all the current observers
+whenever state changes.
+end note
+
+note bottom of ConcreteSubject
+The conrete subject
+may also have methods for
+setting and getting its state.
+end note
+
+note bottom of ConcreteObserver
+Concrete observers can be
+any class that implements the
+Observer interface. Each
+observer registers with a concrete
+subject to receive updates.
+end note
+
+note top of Observer
+All potential observers need
+to implement the Observer
+interface. This interface
+just has one method, update(),
+that gets called when the
+Subject’s state changes.
+end note
+
+@enduml
