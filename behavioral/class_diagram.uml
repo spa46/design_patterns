@@ -1,0 +1,67 @@
+@startuml
+class Client
+class Invoker
+class Command <<interface>>
+class Receiver
+class ConcreteCommand
+
+Invoker : setCommand()
+Command : execute()
+Command : undo()
+Receiver : action()
+ConcreteCommand : execute()
+ConcreteCommand : undo()
+
+Client -> Receiver
+Client -> ConcreteCommand
+Receiver <- ConcreteCommand
+Invoker -> Command
+Command <|.. ConcreteCommand
+
+note left of Client
+The Client is responsible for
+creating a ConcreteCommand and
+setting its Receiver.
+end note
+
+note bottom of Receiver
+The Receiver knows how to
+perform the work needed to
+carry out the request. Any class
+can act as a Receiver.
+end note
+
+note bottom of ConcreteCommand
+The ConcreteCommand defines a binding between an action
+and a Receiver. The Invoker makes a request by calling
+execute() and the ConcreteCommand carries it out by
+calling one or more actions on the Receiver.
+end note
+
+note left of Invoker
+The Invoker holds
+a command and at
+some point asks the
+command to carry
+out a request by
+calling its execute()
+method.
+end note
+
+note top of Command
+Command declares an interface for all commands. A
+command is invoked through its execute() method,
+which asks a receiver to perform its action.
+end note
+
+note right of ConcreteCommand::execute()
+The execute method invokes the action(s)
+on the receiver needed to fulfill the
+request;
+
+“”public void execute() {“”
+“” receiver.action()””
+“”}””
+
+end note
+@enduml
