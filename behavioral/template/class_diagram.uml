@@ -1,0 +1,43 @@
+@startuml
+class AbstractClass {
+templateMethod()
+{abstract} primitiveOperation1()
+{abstract} primitiveOperation2()
+}
+class ConcreteClass
+
+ConcreteClass : primitiveOperation1()
+ConcreteClass : primitiveOperation2()
+
+AbstractClass <|.. ConcreteClass
+
+note left of AbstractClass
+The AbstractClass
+contains the template
+method.
+end note
+
+note left of ConcreteClass
+There may be many
+ConcreteClasses, each
+implementing the full set of
+operations required by the
+template method.
+end note
+
+note right of ConcreteClass
+The ConcreteClass implements
+the abstract operations,
+which are called when the
+templateMethod() needs them.
+end note
+
+note right of AbstractClass::templateMethod
+The template method makes use of the
+primitiveOperations to implement an
+algorithm. It is decoupled from the actual
+implementation of the operations
+“”primitiveOperation1()””
+“”primitiveOperation2()””
+end note
+@enduml
