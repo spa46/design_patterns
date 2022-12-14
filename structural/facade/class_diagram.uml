@@ -1,0 +1,51 @@
+@startuml
+class Client
+class Facade
+Client -> Facade
+
+package "Subsystem Classes" <<rectangle>> {
+ 
+note "More complex subsystem" as n1
+ 
+Facade -- "class 1"
+Facade -- "class 2"
+ 
+package "class 1" <<rectangle>> {
+}
+ 
+package "class 2" <<rectangle>> {
+}
+ 
+package "class 3" <<rectangle>> {
+}
+ 
+package "class 4" <<rectangle>> {
+}
+ 
+package "class 5" <<rectangle>> {
+}
+ 
+package "class 6" <<rectangle>> {
+}
+ 
+"class 1" -- "class 2"
+"class 1" -- "class 3"
+"class 2" -- "class 4"
+"class 3" -- "class 5"
+"class 3" -- "class 6"
+"class 4" -- "class 5"
+"class 4" -- "class 6"
+}
+ 
+note left of Client
+Happy client whose
+job just became
+easier because of
+the facade.
+end note
+ 
+note right of Facade
+Unified interface
+that is easier to use.
+end note
+@enduml
