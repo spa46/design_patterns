@@ -8,3 +8,7 @@ This pattern involves a single class which provides simplified methods required 
 ![adapter](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/spa46/design_patterns/master/structural/facade/class_diagram.uml)
 
 ## source file (click [here](facade.py))
+
+## reference
+1. https://www.tutorialspoint.com/design_pattern/facade_pattern.htm
+2. https://www.geeksforgeeks.org/facade-method-python-design-patterns/
