@@ -1,0 +1,79 @@
+@startuml
+skinparam componentStyle uml2
+
+class Component
+class ConcreteComponent
+class Decorator
+class ConcreteDecoratorA
+class ConcreteDecoratorB
+
+Component : methodA()
+Component : methodB()
+Component : // otherMethods()
+
+ConcreteComponent : methodA()
+ConcreteComponent : methodB()
+ConcreteComponent : // otherMethods()
+
+Decorator : methodA()
+Decorator : methodB()
+Decorator : // otherMethods()
+
+ConcreteDecoratorA : Component wrappedObject
+ConcreteDecoratorA : methodA()
+ConcreteDecoratorA : methodB()
+ConcreteDecoratorA : newBehavior()
+ConcreteDecoratorA : // otherMethods()
+
+ConcreteDecoratorB : Component wrappedObject
+ConcreteDecoratorB : Object newState
+ConcreteDecoratorB : methodA()
+ConcreteDecoratorB : methodB()
+ConcreteDecoratorB : // otherMethods()
+
+Component <|– ConcreteComponent
+Component <|– Decorator
+Decorator <|– ConcreteDecoratorA
+Decorator <|– ConcreteDecoratorB
+Decorator –> Component : component
+note right on link
+Each component can be used on its
+own, or wrapped by a decorator
+component
+end note
+
+note bottom of ConcreteComponent
+The ConreteComponent
+is the object we are going
+to dynamically add new
+behavior to it. It extends
+Component.
+end note
+
+note bottom of Decorator
+Decorators implement the
+same interface or abstract
+class as the component they
+are going to decorate.
+end note
+
+note bottom of ConcreteDecoratorB
+Decorators can extend the
+state of the component
+end note
+
+note bottom of ConcreteDecoratorB
+Decorators can add new methods;
+however, new behavior is typically
+added by doing computation
+before or after an existing method
+in the component.
+end note
+
+note bottom of ConcreteDecoratorA
+The ConcreteDecorator has an
+instance variable for the thing
+it decorates (the Component the
+Decorator wraps).
+end note
+@enduml
