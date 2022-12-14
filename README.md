@@ -1,14 +1,13 @@
 # design_patterns
 
 
-GoF Design Patterns
-
+## GoF Design Patterns category
 
 - Creational patterns: concern the process of object creation. 
 - Structural patterns: deal with the composition of classes or objects. 
 - Behavioral patterns: characterize the ways in which classes or objects interact and distribute responsibility. 
 
-Following is **the list of Design Patterns**:
+## The list of Design Patterns
 
 | Createional Pattern | Structural Pattern                                 | Behavioral Pattern      |
 | ------------------- | -------------------------------------------------- | ----------------------- |
