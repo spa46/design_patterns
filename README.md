@@ -9,16 +9,16 @@
 
 ## The list of Design Patterns
 
-| Createional Pattern | Structural Pattern                                 | Behavioral Pattern      |
-| ------------------- | -------------------------------------------------- | ----------------------- |
-| Abstract Factory    | [Adapter](structural/adapter/readme.md)            | Chain of Responsibility |
-| Builder             | Bridge                                             | Command                 |
-| Factory Methods     | Composite                                          | Interpreter             |
-| Prototype           | Decorator                                          | Iterator                |
-| Singleton           | [Facade](structural/facade/readme.md)              | Mediator                |
-|                     | Flyweight                                          | Memento                 |
-|                     | Proxy                                              | Observer                |
-|                     |                                                    | State                   |
-|                     |                                                    | Strategy                |
-|                     |                                                    | Template Method         |
-|                     |                                                    | Visitor                 |
+| [Createional Pattern](creational)                         | Structural Pattern                          | Behavioral Pattern                              |
+| --------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------- |
+| [Abstract Factory](creational/abstract_factory/readme.md) | [Adapter](structural/adapter/readme.md)     | Chain of Responsibility                         |
+| Builder                                                   | Bridge                                      | [Command](behavioral/command/readme.md)         |
+| [Factory Methods](creational/factory/readme.md)           | [Composite](structural/composite/readme.md) | Interpreter                                     |
+| Prototype                                                 | [Decorator](structural/decorator/readme.md) | [Iterator](behavioral/iterator/readme.md)       |
+| [Singleton](creational/singleton/readme.md)               | [Facade](structural/facade/readme.md)       | Mediator                                        |
+|                                                           | Flyweight                                   | Memento                                         |
+|                                                           | [Proxy](structural/proxy/readme.md)         | [Observer](behavioral/observer/readme.md)       |
+|                                                           |                                             | [State](behavioral/state/readme.md)             |
+|                                                           |                                             | Strategy                                        |
+|                                                           |                                             | [Template Method](behavioral/template/readme.md)|
+|                                                           |                                             | Visitor                                         |
