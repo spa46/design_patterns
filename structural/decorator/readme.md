@@ -8,6 +8,7 @@ In other words, this uses composition instead of inheritance to extend the funct
 ![adapter](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/spa46/design_patterns/master/structural/decorator/class_diagram.uml)
 
 ## source file
+- [problematic code](problem.java) (java)
 - [decorator.py](decorator.py) (python)
 - [decorator.java](decorator.java) (java)
 
