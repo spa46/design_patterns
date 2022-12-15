@@ -7,8 +7,8 @@ Iterator lets you traverse elements of a collection without exposing its underly
 ![iterator](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/spa46/design_patterns/master/behavioral/iterator/class_diagram.uml)
 
 ## source file
-- [iterator.py](iterator.py) (python)
-- [iterator.java](iterator.java) (java)
+- [iterator.py](iterator.py) (python version)
+- [iterator.java](iterator.java) (java version)
 
 ## reference
 1. https://refactoring.guru/design-patterns/iterator
