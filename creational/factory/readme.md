@@ -12,5 +12,5 @@ Factory Method provides an interface for creating objects in a superclass, but a
 - [factory.py](factory.py) 
 
 ## reference
-1. https://refactoring.guru/design-patterns/command
+1. https://refactoring.guru/design-patterns/factory-method
 2. https://brownbears.tistory.com/491
