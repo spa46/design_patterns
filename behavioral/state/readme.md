@@ -7,7 +7,8 @@ State lets an object alter its behavior when its internal state changes. It appe
 ![state](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/spa46/design_patterns/master/behavioral/state/class_diagram.uml)
 
 ## source file
-- [bad implementation](bad_implementation.java): Too many conditional statements
+- [bad implementation](bad_implementation.java)
+  - Too many conditional statements
 
 - [state.py](state.py) (python ver.)
 - [state.java](state.java) (java ver.)
