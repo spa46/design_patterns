@@ -11,4 +11,4 @@ Iterator lets you traverse elements of a collection without exposing its underly
 
 ## reference
 1. https://refactoring.guru/design-patterns/iterator
-2. https://brownbears.tistory.com/561 (in Korean)
+2. https://brownbears.tistory.com/566 (in Korean)
