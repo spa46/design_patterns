@@ -9,6 +9,7 @@ In other words, this uses composition instead of inheritance to extend the funct
 
 ## source file
 - [problematic code](problem.java) (java)
+  - What if putting options are required when ordering a cup of coffee?
 - [decorator.py](decorator.py) (python)
 - [decorator.java](decorator.java) (java)
 
