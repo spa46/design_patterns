@@ -1,7 +1,7 @@
 # Abstract Factory Pattern
 
 ## Definition
-Factory Method provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+Abstract Factory lets you produce families of related objects without specifying their concrete classes.
 
 ## Diagram
 ![abstract factory](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/spa46/design_patterns/master/creational/abstract_factory/class_diagram.uml)
