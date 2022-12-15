@@ -19,7 +19,7 @@ lets subclasses override specific steps of the algorithm without changing its st
   - 
 - best code:
   - [template and interface+abstract](template_with_interface_and_abstract.java) (java ver.)
-  - [multiple_inheritance.py](multiple inheritance.py) (python ver.)
+  - [multiple_inheritance.py](multiple_inheritance.py) (python ver.)
 
 
 ## reference
