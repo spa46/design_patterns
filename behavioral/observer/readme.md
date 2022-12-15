@@ -9,7 +9,7 @@
 ## source file
 - problem
   - tight_coupling([source](tight_coupling.java)): changes affect other classes 
-  - loose_coupling[source](loose_coupling.java): it solves above problem but another problem rises: cannot send multiple notifications.
+  - loose_coupling([source](loose_coupling.java)): it solves above problem but another problem rises: cannot send multiple notifications.
 - push:
   - [push.py](push.py) (python ver.)
   - [push.java](push.java) (java ver.)
