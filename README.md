@@ -22,3 +22,7 @@
 |                                                           |                                             | Strategy                                        |
 |                                                           |                                             | [Template Method](behavioral/template/readme.md)|
 |                                                           |                                             | Visitor                                         |
+
+## Reference
+1. https://refactoring.guru/design-patterns/
+2. https://www.tutorialspoint.com/design_pattern/composite_pattern.htm
