@@ -15,3 +15,4 @@ It allows you to have a tree structure and ask each node in the tree structure t
 
 ## Reference
 1. https://www.geeksforgeeks.org/composite-design-pattern/
+2. https://brownbears.tistory.com/499 (examples in Korean)
