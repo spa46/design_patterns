@@ -8,6 +8,7 @@ Iterator lets you traverse elements of a collection without exposing its underly
 
 ## source file
 - [iterator.py](iterator.py) (python)
+- [iterator.java](iterator.java) (java)
 
 ## reference
 1. https://refactoring.guru/design-patterns/iterator
