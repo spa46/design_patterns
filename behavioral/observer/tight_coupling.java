@@ -25,18 +25,18 @@ public class Youtube {
 
 public class SubscriberA {
     public void update(Video video) {
-        System.out.println("SubscriberA 영상 알림 ");
+        System.out.println("SubscriberA Notification ");
     }
 }
 
 public class SubscriberB {
     public void update(Video video) {
-        System.out.println("SubscriberB 영상 알림 ");
+        System.out.println("SubscriberB Notification ");
     }
 }
 
 public class SubscriberC {
     public void update(Video video) {
-        System.out.println("SubscriberC 영상 알림 ");
+        System.out.println("SubscriberC Notification ");
     }
 }
