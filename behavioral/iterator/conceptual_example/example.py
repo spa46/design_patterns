@@ -51,3 +51,16 @@ if __name__ == "__main__":
 
     print("Reverse traversal:")
     print("\n".join(collection.get_reverse_iterator()), end="")
+
+
+# OUTPUT
+
+# Straight traversal:
+# First
+# Second
+# Third
+
+# Reverse traversal:
+# Third
+# Second
+# First

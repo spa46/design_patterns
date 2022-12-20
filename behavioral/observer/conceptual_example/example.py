@@ -78,3 +78,24 @@ if __name__ == "__main__":
     subject.detach(observer_a)
 
     subject.some_business_logic()
+
+# OUTPUT
+
+# Subject: Attached an observer.
+# Subject: Attached an observer.
+
+# Subject: I'm doing something important.
+# Subject: My state has just changed to: 0
+# Subject: Notifying observers...
+# ConcreteObserverA: Reacted to the event
+# ConcreteObserverB: Reacted to the event
+
+# Subject: I'm doing something important.
+# Subject: My state has just changed to: 5
+# Subject: Notifying observers...
+# ConcreteObserverB: Reacted to the event
+
+# Subject: I'm doing something important.
+# Subject: My state has just changed to: 0
+# Subject: Notifying observers...
+# ConcreteObserverB: Reacted to the event

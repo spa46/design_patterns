@@ -42,4 +42,15 @@ if __name__ == "__main__":
     process1 = Thread(target=test_singleton, args=("FOO",))
     process2 = Thread(target=test_singleton, args=("BAR",))
     process1.start()
-    process2.start()``
+    process2.start()
+
+
+# OUTPUT
+
+# If you see the same value, then singleton was reused (yay!)
+# If you see different values, then 2 singletons were created (booo!!)
+
+# RESULT:
+
+# FOO
+# FOO

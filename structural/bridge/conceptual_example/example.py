@@ -52,3 +52,11 @@ if __name__ == "__main__":
     implementation = ConcreteImplementationB()
     abstraction = ExtendedAbstraction(implementation)
     client_code(abstraction)
+
+# OUTPUT
+
+# Abstraction: Base operation with:
+# ConcreteImplementationA: Here's the result on the platform A.
+
+# ExtendedAbstraction: Extended operation with:
+# ConcreteImplementationB: Here's the result on the platform B.
