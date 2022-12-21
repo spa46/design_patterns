@@ -23,6 +23,11 @@
 |                                                           |                                             | [Template Method](behavioral/template/readme.md)|
 |                                                           |                                             | Visitor                                         |
 
+## Cheatsheet
+- [PDF](cheatsheets/design_patterns_cheatsheet_simple.pdf) - Design Pattern Quick Reference by Jason S. McDonald
+- [PDF](cheatsheets/design_patterns_cheatsheet2.pdf) - online Design Patterns by Jason McDonald (dzone.com)
+- [PDF](cheatsheets/designpatterns-refcards.pdf) - https://www.paperpicks.com/the-essential-design-patterns-cheat-sheet
+
 ## Reference
 1. https://refactoring.guru/design-patterns/
 2. https://www.tutorialspoint.com/design_pattern/composite_pattern.htm
