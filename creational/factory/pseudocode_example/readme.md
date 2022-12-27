@@ -1,9 +1,9 @@
 # Pseudo Code - Factory Pattern
 
 # Example
-![alt text](pseudo_pic.png)
+![alt text](pseudo_example.png)
 
-[pseudocode](pseudocode.txt)
+[Code](pseudocode.txt)
 
 # Reference
 - https://refactoring.guru/design-patterns/factory-method
