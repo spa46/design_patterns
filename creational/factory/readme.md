@@ -4,7 +4,7 @@
 Factory Method provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
 ## Diagram
-![alt text](pattern.png)
+![alt text](concept/structure.png)
 
 1. Product interface: common to all objects that can be produced by the creator and its subclasses.
 
@@ -22,17 +22,17 @@ Factory Method provides an interface for creating objects in a superclass, but a
    Note that the factory method doesn’t have to create new instances all the time. It can also return existing objects from a cache, an object pool, or another source.
 
 # Example:
-- [example.py](conceptual_example.py)
+- [example.py](concept/example.png)
+
+## Pseudo Example
+- [example](pseudocode)
 
 ## Other Examples
 - example1
-  - problem code: [problem.py](problem.py)
+  - problem code: [problem.py](other_examples/problem.py)
     - Adding Database Information violates SRP(single responsibility principle), Add Factory
-  - solution: [factory.py](factory.py) 
-- example2: [example2.py](example2.py)
-
-## Pseudo Example
-- [pseudo code](pseudocode_example)
+  - solution: [factory.py](other_examples/factory.py) 
+- example2: [example2.py](other_examples/example2.py)
 
 ## Reference
 1. https://refactoring.guru/design-patterns/factory-method

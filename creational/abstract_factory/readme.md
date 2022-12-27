@@ -4,7 +4,7 @@
 Abstract Factory lets you produce families of related objects without specifying their concrete classes.
 
 ## Diagram
-![alt text](pattern.png)
+![alt text](concept/structure.png)
 
 1. Abstract Products declare interfaces for a set of distinct but related products which make up a product family.
 
@@ -16,15 +16,14 @@ Abstract Factory lets you produce families of related objects without specifying
 
 5. Although concrete factories instantiate concrete products, signatures of their creation methods must return corresponding abstract products. This way the client code that uses a factory doesn’t get coupled to the specific variant of the product it gets from a factory. The Client can work with any concrete factory/product variant, as long as it communicates with their objects via abstract interfaces.
 
-# Example:
-- [example.py](conceptual_example.py)
+- - [Click Code](concept/example.png)
 
 ## Pseudo Example
-- [pseudo code](pseudocode_example)
+- [example](pseudocode)
 
 ## Other Examples
-- [without_abstract_factory.py](without_abstract_factory.py)
-- [abstract_factory.py](abstract_factory.py) 
+- [without_abstract_factory.py](other_examples/without_abstract_factory.py)
+- [abstract_factory.py](other_examples/abstract_factory.py) 
 
 ## reference
 1. https://refactoring.guru/design-patterns/command
