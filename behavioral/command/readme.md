@@ -19,7 +19,7 @@ This transformation lets you pass requests as a method arguments, delay or queue
 
 5. The Client creates and configures concrete command objects. The client must pass all of the request parameters, including a receiver instance, into the command’s constructor. After that, the resulting command may be associated with one or multiple senders.
 
-- - [Click Code](concept/example.png)
+- - [Click Code](concept/example.py)
 
 ## Pseudo Example
 - [example](pseudocode)

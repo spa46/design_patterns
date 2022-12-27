@@ -17,7 +17,7 @@ This pattern involves a single class which provides simplified methods required 
 
 4. The Client uses the facade instead of calling the subsystem objects directly.
 
-- - [Click Code](concept/example.png)
+- - [Click Code](concept/example.py)
 
 ## Pseudo Example
 - [example](pseudocode)

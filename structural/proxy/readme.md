@@ -22,7 +22,7 @@ There are 3 kinds of proxies(ref. [Here](https://brownbears.tistory.com/551) (Ko
 
 4. The Client should work with both services and proxies via the same interface. This way you can pass a proxy into any code that expects a service object.
 
-- - [Click Code](concept/example.png)
+- - [Click Code](concept/example.py)
 
 ## Pseudo Example
 - [example](pseudocode)

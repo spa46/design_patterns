@@ -16,7 +16,7 @@ State lets an object alter its behavior when its internal state changes. It appe
 
 4. Both context and concrete states can set the next state of the context and perform the actual state transition by replacing the state object linked to the context.
 
-- - [Click Code](concept/example.png)
+- - [Click Code](concept/example.py)
 
 ## Pseudo Example
 - [example](pseudocode)

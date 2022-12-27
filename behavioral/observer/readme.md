@@ -18,7 +18,7 @@
 
 6. The Client creates publisher and subscriber objects separately and then registers subscribers for publisher updates.
 
-- - [Click Code](concept/example.png)
+- - [Click Code](concept/example.py)
 
 ## Pseudo Example
 - [example](pseudocode)

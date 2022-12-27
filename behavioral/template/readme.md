@@ -11,7 +11,7 @@ lets subclasses override specific steps of the algorithm without changing its st
 
 2. Concrete Classes can override all of the steps, but not the template method itself.
 
-- - [Click Code](concept/example.png)
+- - [Click Code](concept/example.py)
 
 ## Pseudo Example
 - [example](pseudocode)

@@ -22,7 +22,7 @@ Factory Method provides an interface for creating objects in a superclass, but a
    Note that the factory method doesn’t have to create new instances all the time. It can also return existing objects from a cache, an object pool, or another source.
 
 # Example:
-- [example.py](concept/example.png)
+- [example.py](concept/example.py)
 
 ## Pseudo Example
 - [example](pseudocode)

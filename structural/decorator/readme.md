@@ -17,7 +17,7 @@ In other words, this uses composition instead of inheritance to extend the funct
 
 5. The Client can wrap components in multiple layers of decorators, as long as it works with all objects via the component interface.
 
-- - [Click Code](concept/example.png)
+- - [Click Code](concept/example.py)
 
 ## Pseudo Example
 - [example](pseudocode)

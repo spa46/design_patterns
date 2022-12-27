@@ -21,7 +21,7 @@ It allows you to have a tree structure and ask each node in the tree structure t
 
 4. The Client works with all elements through the component interface. As a result, the client can work in the same way with both simple or complex elements of the tree.
 
-- - [Click Code](concept/example.png)
+- - [Click Code](concept/example.py)
 
 ## Pseudo Example
 - [example](pseudocode)
