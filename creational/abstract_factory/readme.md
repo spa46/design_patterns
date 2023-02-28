@@ -26,5 +26,5 @@ Abstract Factory lets you produce families of related objects without specifying
 - [abstract_factory.py](other_examples/abstract_factory.py) 
 
 ## reference
-1. https://refactoring.guru/design-patterns/command
+1. https://refactoring.guru/design-patterns/abstract-factory
 2. https://www.geeksforgeeks.org/abstract-factory-method-python-design-patterns/
